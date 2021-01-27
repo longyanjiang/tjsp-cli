@@ -1,0 +1,29 @@
+{
+  "name": "tjsp-cli",
+  "version": "1.0.0",
+  "description": "a cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "tjsp": "bin/index.js"
+  },
+  "private": true,
+  "keywords": [
+    "tjsp",
+    "cli"
+  ],
+  "author": "Snine",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^4.1.0",
+    "child_process": "^1.0.2",
+    "commander": "^7.0.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.0",
+    "inquirer": "^7.3.3",
+    "open": "^7.3.1",
+    "ora": "^5.3.0"
+  }
+}
